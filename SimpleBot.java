@@ -52,7 +52,7 @@ public class SimpleBot {
                 "4. To interrupt the execution of a program.");
         while (true) {
             int ans = scanner.nextInt();
-            if ( ans == 2) {
+            if (ans == 2) {
                 System.out.println("Completed, have a nice day!");
                 break;
             } else System.out.println("Please, try again.");
@@ -60,6 +60,6 @@ public class SimpleBot {
     }
 
     static void end() {
-        System.out.println("Congratulations, have a nice day!"); // Do not change this text
+        System.out.println("Congratulations, have a nice day!");
     }
 }
